@@ -1,9 +1,10 @@
 import Hello from './Hello.vue'
 
-
+import Bag1 from './Bag1.vue'
 const npmGit = {
     install,
-    Hello
+    Hello,
+    Bag1
 }
 
 if (typeof window !== 'undefined' && window.Vue) {
@@ -17,6 +18,7 @@ function install(Vue) {
     }
 
     Vue.component('Hello', Hello)
+    Vue.component('Bag1', Bag1)
 
 }
 

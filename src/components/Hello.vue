@@ -1,5 +1,5 @@
 <template>
-    <div @click="clickMessage" :style="style" >
+    <div @click="clickMessage"  >
         <span :style="{'color': titleColor}">这里是Hello组件</span>
         传的参数message: {{message}}
     </div>
@@ -9,7 +9,6 @@
 export default {
     props: {
         message: String, 
-        style: Object, 
         titleColor: String
     }, 
     methods: {
