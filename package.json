@@ -6,10 +6,14 @@
   "jsnext:main": "./src/components/index.js",
   "author": "LJ906 <ni_hao906@163.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LJ906/npm-git"
   },
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
