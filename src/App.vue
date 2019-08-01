@@ -1,8 +1,8 @@
 <template>
   <div id="app"> kkkkkk
     Hello组件展示在下面：
-    <!-- <hello :message="msg" class="hello" @click="clickMessage"   :titleColor ="titleColor"/>
-    <bag1 :message="msg" class="hello" @click="clickMessage" ></bag1> -->
+    <hello :message="msg" class="hello" @click="clickMessage"   :titleColor ="titleColor"/>
+    <bag1 :message="msg" class="hello" @click="clickMessage" ></bag1>
   </div>
 </template>
 
