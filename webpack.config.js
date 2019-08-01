@@ -9,6 +9,7 @@ module.exports = {
     publicPath: '/dist/',
     filename: 'npmGit.js',
     // filename: 'bulid.js',
+    library: 'npmGit',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },

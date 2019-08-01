@@ -1,8 +1,8 @@
 <template>
-  <div id="app">
+  <div id="app"> kkkkkk
     Hello组件展示在下面：
-    <hello :message="msg" class="hello" @click="clickMessage"   :titleColor ="titleColor"/>
-    <bag1 :message="msg" class="hello" @click="clickMessage" ></bag1>
+    <!-- <hello :message="msg" class="hello" @click="clickMessage"   :titleColor ="titleColor"/>
+    <bag1 :message="msg" class="hello" @click="clickMessage" ></bag1> -->
   </div>
 </template>
 
@@ -15,6 +15,9 @@ export default {
       titleColor: '#999'
     }
   }, 
+  created() {
+    alert(2222)
+  },
   methods: {
     clickMessage () {
       console.log('你点击了hello组件，message:', this.msg)
