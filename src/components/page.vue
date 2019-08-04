@@ -14,8 +14,8 @@
     </Select> 页
     </p>
     <div class="btnLastNext">
-      <p><img src="../../img/last.png" @click="lastPage"/></p>
-      <p><img src="../../img/next.png" @click="nextPage"/></p>
+      <p><img src="../img/last.png" @click="lastPage"/></p>
+      <p><img src="../img/next.png" @click="nextPage"/></p>
     </div>
   </div>
 </template>

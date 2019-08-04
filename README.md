@@ -1,5 +1,11 @@
 # npm-git
 
+
+初始化话简单的项目
+
+vue init webpack-simple xxx
+
+
 > npm install a git project to reuse common components in multiple projects
 
 npm 引入git 项目方式： 

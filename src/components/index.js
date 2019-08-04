@@ -1,16 +1,13 @@
 
-// import iView from 'iview';
-// import 'iview/dist/styles/iview.css';
 
 import Hello from './Hello.vue'
-import Bag1 from './Bag1.vue'
- import commonPut from './my-components/commonput'
+import hclContainerList from './containerComponent/containerList'
+
 
 const npmGit = {
     install,
     Hello,
-    Bag1, 
-    commonPut
+    hclContainerList
 }
 
 if (typeof window !== 'undefined' && window.Vue) {
@@ -23,8 +20,8 @@ function install(Vue) {
     }
 
     Vue.component('Hello', Hello)
-    Vue.component('Bag1', Bag1)
-    Vue.component('commonPut', commonPut)
+    // Vue.component('Bag1', Bag1)
+    Vue.component('hclContainerList', hclContainerList)
 }
 
 export default npmGit

@@ -1,8 +1,8 @@
 <template>
-  <div id="app"> kkkkkk
+  <div id="app"> 
     Hello组件展示在下面：
-    <hello :message="msg" class="hello" @click="clickMessage"   :titleColor ="titleColor"/>
-    <bag1 :message="msg" class="hello" @click="clickMessage" ></bag1>
+    <hello :message="msg" class="hello"  />
+    <hcl-container-list></hcl-container-list>
   </div>
 </template>
 
@@ -12,11 +12,11 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App', 
-      titleColor: '#999'
+       
     }
   }, 
   created() {
-    alert(2222)
+    
   },
   methods: {
     clickMessage () {
